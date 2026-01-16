@@ -20,5 +20,5 @@ jobs:
 
       - name: print go version
         run: |
-          go test ./...
+          go test -cover ./...
           exit 0
