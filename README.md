@@ -2,7 +2,7 @@
 
 This repo contains the starter code for the "Notely" application for the "Learn CICD" course on [Boot.dev](https://boot.dev).
 
-https://github.com/oeeve/learn-cicd-starter/actions/workflows/ci.yml/badge.svg
+[![ci](https://github.com/oeeve/learn-cicd-starter/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/oeeve/learn-cicd-starter/actions/workflows/ci.yml)
 
 ## Local Development
 
