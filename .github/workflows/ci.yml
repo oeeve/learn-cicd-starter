@@ -17,7 +17,8 @@ jobs:
           go-version: "1.25"
       - name: Check gofmt
         run: |
-          test -z $(go fmt ./...)
+          gofmt -d -e . | tee /dev/stderr | test ! -s /dev/stdin
+
 
       - name: Install staticcheck
         run: go install honnef.co/go/tools/cmd/staticcheck@latest
